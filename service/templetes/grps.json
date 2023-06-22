@@ -1,0 +1,329 @@
+{
+  "pageSize":{"w": 595.28, "h": 841.89},
+  "pages":[
+    {
+      "elements":[
+        {"type":"text","rect":[120,70,520,100],"color":{"r":0,"g":0,"b":0},"content":"上汇实验学校%{year}学年%{semester.name}学生成长报告","font":{"size":16,"style":"","family":"msyh"},"lineHeight":28,"wordSpace":1},
+        {"type":"line","rect":[80,100,520,100],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"text","rect":[240,108,330,120],"color":{"r":0,"g":0,"b":0},"content":"班级","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[438,108,520,120],"color":{"r":0,"g":0,"b":0},"content":"%{class.current_grade}年级(%{class.class_number})班","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"line","rect":[80,125,520,125],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"text","rect":[240,133,330,145],"color":{"r":0,"g":0,"b":0},"content":"学号","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[438,133,520,145],"color":{"r":0,"g":0,"b":0},"content":"%{student.sn}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"line","rect":[80,150,520,150],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"text","rect":[240,158,330,170],"color":{"r":0,"g":0,"b":0},"content":"姓名","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[438,158,520,170],"color":{"r":0,"g":0,"b":0},"content":"%{student.name}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"line","rect":[80,175,520,175],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"line","rect":[300,200,520,200],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"语文"},
+        {"type":"line","rect":[300,225,520,225],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,250,520,250],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,275,520,275],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,300,520,300],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[120,233,160,290],"color":{"r":0,"g":0,"b":0},"content":"语文","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,220,330,245],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        
+        {"type":"text","rect":[340,183,440,208],"color":{"r":0,"g":0,"b":0},"content":"基础","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[340,208,440,233],"color":{"r":0,"g":0,"b":0},"content":"阅读","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[340,233,440,258],"color":{"r":0,"g":0,"b":0},"content":"表达","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,258,440,283],"color":{"r":0,"g":0,"b":0},"content":"综合学习","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,283,440,308],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[455,183,520,208],"color":{"r":0,"g":0,"b":0},"content":"%{chinese_basics}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,208,520,233],"color":{"r":0,"g":0,"b":0},"content":"%{chinese_reading}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,233,520,258],"color":{"r":0,"g":0,"b":0},"content":"%{chinese_expression}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,258,520,283],"color":{"r":0,"g":0,"b":0},"content":"%{chinese_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,283,520,308],"color":{"r":0,"g":0,"b":0},"content":"%{chinese_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"line","rect":[300,325,520,325],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"数学"},
+        {"type":"line","rect":[300,350,520,350],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,375,520,375],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,400,520,400],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,425,520,425],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[120,358,160,425],"color":{"r":0,"g":0,"b":0},"content":"数学","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,345,330,425],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        
+        {"type":"text","rect":[330,308,440,333],"color":{"r":0,"g":0,"b":0},"content":"数与代数","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[325,333,440,358],"color":{"r":0,"g":0,"b":0},"content":"图形与几何","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[325,358,440,383],"color":{"r":0,"g":0,"b":0},"content":"统计与概率","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[325,383,440,408],"color":{"r":0,"g":0,"b":0},"content":"综合与实践","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,408,440,433],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[455,308,520,333],"color":{"r":0,"g":0,"b":0},"content":"%{math_algebra}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,333,520,358],"color":{"r":0,"g":0,"b":0},"content":"%{math_geometry}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,358,520,383],"color":{"r":0,"g":0,"b":0},"content":"%{math_statistics}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,383,520,408],"color":{"r":0,"g":0,"b":0},"content":"%{math_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,408,520,433],"color":{"r":0,"g":0,"b":0},"content":"%{math_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"line","rect":[300,450,520,450],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"英语"},
+        {"type":"line","rect":[300,475,520,475],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,500,520,500],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,525,520,525],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,550,520,550],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[120,483,160,550],"color":{"r":0,"g":0,"b":0},"content":"英语","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,470,330,550],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        
+        {"type":"text","rect":[345,433,440,458],"color":{"r":0,"g":0,"b":0},"content":"听","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[345,458,440,483],"color":{"r":0,"g":0,"b":0},"content":"说","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[345,483,440,508],"color":{"r":0,"g":0,"b":0},"content":"读","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[345,508,440,533],"color":{"r":0,"g":0,"b":0},"content":"写","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,533,440,583],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[455,433,520,458],"color":{"r":0,"g":0,"b":0},"content":"%{english_listen}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,458,520,483],"color":{"r":0,"g":0,"b":0},"content":"%{english_expression}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,483,520,508],"color":{"r":0,"g":0,"b":0},"content":"%{english_reading}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,508,520,533],"color":{"r":0,"g":0,"b":0},"content":"%{english_writing}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,533,520,583],"color":{"r":0,"g":0,"b":0},"content":"%{english_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"line","rect":[300,575,520,575],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"道法"},
+        {"type":"line","rect":[300,600,520,600],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,625,520,625],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,650,520,650],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,675,520,675],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,700,520,700],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,725,520,725],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,750,520,750],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[105,658,170,725],"color":{"r":0,"g":0,"b":0},"content":"道德与法治","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,595,330,675],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[222,683,330,708],"color":{"r":0,"g":0,"b":0},"content":"期末考查","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[330,558,440,583],"color":{"r":0,"g":0,"b":0},"content":"课堂参与","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,583,440,608],"color":{"r":0,"g":0,"b":0},"content":"认真倾听","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,608,440,633],"color":{"r":0,"g":0,"b":0},"content":"小组合作","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,633,440,658],"color":{"r":0,"g":0,"b":0},"content":"活动表现","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,658,440,683],"color":{"r":0,"g":0,"b":0},"content":"基本常识","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,683,440,708],"color":{"r":0,"g":0,"b":0},"content":"活动作业","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,708,440,733],"color":{"r":0,"g":0,"b":0},"content":"行为表现","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,733,440,758],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[455,558,520,583],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_engagement}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,583,520,608],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_listen}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,608,520,633],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_collaboration}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,633,520,658],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_activity}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,658,520,683],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_knowledge}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,683,520,708],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_homework}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,708,520,733],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_behavior}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,733,520,758],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"line","rect":[80,100,80,750],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,175,190,750],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,175,300,275],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,300,300,400],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,425,300,525],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,550,300,725],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[410,100,410,750],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[520,100,520,750],"color":{"r":0,"g":0,"b":0},"width":0.2}
+      ]
+    },
+    {
+      "elements":[
+        {"type":"line","rect":[80,75,520,75],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"自然"},
+        {"type":"line","rect":[300,100,520,100],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,125,520,125],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,150,520,150],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,175,520,175],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,200,520,200],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,225,520,225],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[123,145,170,170],"color":{"r":0,"g":0,"b":0},"content":"自然","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,108,330,133],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[222,183,330,208],"color":{"r":0,"g":0,"b":0},"content":"期末考查","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[342,83,440,108],"color":{"r":0,"g":0,"b":0},"content":"观察","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,108,440,133],"color":{"r":0,"g":0,"b":0},"content":"讨论","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,133,440,158],"color":{"r":0,"g":0,"b":0},"content":"操作","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,158,440,183],"color":{"r":0,"g":0,"b":0},"content":"常识","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,183,440,208],"color":{"r":0,"g":0,"b":0},"content":"制作","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,208,440,233],"color":{"r":0,"g":0,"b":0},"content":"设计","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,233,440,258],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[455,83,520,108],"color":{"r":0,"g":0,"b":0},"content":"%{nature_observe}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,108,520,133],"color":{"r":0,"g":0,"b":0},"content":"%{nature_discuss}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,133,520,158],"color":{"r":0,"g":0,"b":0},"content":"%{nature_operate}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,158,520,183],"color":{"r":0,"g":0,"b":0},"content":"%{nature_knowledge}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,183,520,208],"color":{"r":0,"g":0,"b":0},"content":"%{nature_make}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,208,520,233],"color":{"r":0,"g":0,"b":0},"content":"%{nature_design}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,233,520,258],"color":{"r":0,"g":0,"b":0},"content":"%{nature_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},       
+        
+        {"type":"line","rect":[80,250,520,250],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"体育"},
+        {"type":"line","rect":[190,275,520,275],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,300,520,300],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,325,520,325],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,350,520,350],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[123,308,170,333],"color":{"r":0,"g":0,"b":0},"content":"体育","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+       
+        {"type":"text","rect":[275,258,440,283],"color":{"r":0,"g":0,"b":0},"content":"课堂参与","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,283,440,308],"color":{"r":0,"g":0,"b":0},"content":"规则意识","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,308,440,333],"color":{"r":0,"g":0,"b":0},"content":"团队精神","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,333,440,358],"color":{"r":0,"g":0,"b":0},"content":"努力程度","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,358,440,383],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[455,258,520,283],"color":{"r":0,"g":0,"b":0},"content":"%{pe_engagement}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,283,520,308],"color":{"r":0,"g":0,"b":0},"content":"%{pe_regulation}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,308,520,333],"color":{"r":0,"g":0,"b":0},"content":"%{pe_team}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,333,520,358],"color":{"r":0,"g":0,"b":0},"content":"%{pe_hard}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,358,520,383],"color":{"r":0,"g":0,"b":0},"content":"%{pe_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},   
+
+        {"type":"line","rect":[80,375,520,375],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"唱游"},
+        {"type":"line","rect":[300,400,520,400],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,425,520,425],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,450,520,450],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,475,520,475],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,500,520,500],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,525,520,525],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,550,520,550],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[123,470,170,495],"color":{"r":0,"g":0,"b":0},"content":"唱游","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,420,330,445],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[222,508,330,533],"color":{"r":0,"g":0,"b":0},"content":"期末考查","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[342,383,440,408],"color":{"r":0,"g":0,"b":0},"content":"聆听","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,408,440,433],"color":{"r":0,"g":0,"b":0},"content":"演奏","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,433,440,458],"color":{"r":0,"g":0,"b":0},"content":"表演","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,458,440,483],"color":{"r":0,"g":0,"b":0},"content":"演唱","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,483,440,508],"color":{"r":0,"g":0,"b":0},"content":"音乐常识","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,508,440,533],"color":{"r":0,"g":0,"b":0},"content":"课堂表现","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,533,440,558],"color":{"r":0,"g":0,"b":0},"content":"学业成果","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,558,440,583],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+   
+        {"type":"text","rect":[455,383,520,408],"color":{"r":0,"g":0,"b":0},"content":"%{music_listen}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,408,520,433],"color":{"r":0,"g":0,"b":0},"content":"%{music_play}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,433,520,458],"color":{"r":0,"g":0,"b":0},"content":"%{music_act}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,458,520,483],"color":{"r":0,"g":0,"b":0},"content":"%{music_singing}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,483,520,508],"color":{"r":0,"g":0,"b":0},"content":"%{music_knowledge}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,508,520,533],"color":{"r":0,"g":0,"b":0},"content":"%{music_engagement}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,533,520,558],"color":{"r":0,"g":0,"b":0},"content":"%{music_achievement}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,558,520,583],"color":{"r":0,"g":0,"b":0},"content":"%{music_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"line","rect":[80,575,520,575],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"美术"},
+        {"type":"line","rect":[300,600,520,600],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,625,520,625],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,650,520,650],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,675,520,675],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,700,520,700],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,725,520,725],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,750,520,750],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,775,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+        {"type":"text","rect":[123,670,170,695],"color":{"r":0,"g":0,"b":0},"content":"美术","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[210,620,330,645],"color":{"r":0,"g":0,"b":0},"content":"日常学习情况","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[222,708,330,733],"color":{"r":0,"g":0,"b":0},"content":"期末考查","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"text","rect":[342,583,440,608],"color":{"r":0,"g":0,"b":0},"content":"作业 1","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,608,440,633],"color":{"r":0,"g":0,"b":0},"content":"作业 2","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,633,440,658],"color":{"r":0,"g":0,"b":0},"content":"作业 3","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[342,658,440,683],"color":{"r":0,"g":0,"b":0},"content":"作业 4","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,683,440,708],"color":{"r":0,"g":0,"b":0},"content":"造型表现","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,708,440,733],"color":{"r":0,"g":0,"b":0},"content":"设计应用","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[330,733,440,758],"color":{"r":0,"g":0,"b":0},"content":"欣赏评述","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[275,758,440,783],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+   
+        {"type":"text","rect":[455,583,520,608],"color":{"r":0,"g":0,"b":0},"content":"%{art_homework1}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,608,520,633],"color":{"r":0,"g":0,"b":0},"content":"%{art_homework2}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,633,520,658],"color":{"r":0,"g":0,"b":0},"content":"%{art_homework3}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,658,520,683],"color":{"r":0,"g":0,"b":0},"content":"%{art_homework4}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,683,520,708],"color":{"r":0,"g":0,"b":0},"content":"%{art_styling}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,708,520,733],"color":{"r":0,"g":0,"b":0},"content":"%{art_design}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,733,520,758],"color":{"r":0,"g":0,"b":0},"content":"%{art_appreciation}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+        {"type":"text","rect":[455,758,520,783],"color":{"r":0,"g":0,"b":0},"content":"%{art_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":0},
+
+        {"type":"line","rect":[80,75,80,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[190,75,190,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[410,75,410,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[520,75,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,75,300,225],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,375,300,550],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[300,575,300,750],"color":{"r":0,"g":0,"b":0},"width":0.2}
+      ]
+    },
+    {
+      "elements":[
+          {"type":"text","rect":[150,70,520,100],"color":{"r":0,"g":0,"b":0},"content":"%{year}学年%{semester.name}%{class.current_grade}年级(%{class.class_number})班教师评语","font":{"size":16,"style":"","family":"msyh"},"lineHeight":28,"wordSpace":1},
+          {"type":"line","rect":[80,100,520,100],"color":{"r":0,"g":0,"b":0},"width":0.2},
+          
+          {"type":"text","rect":[105,108,520,133],"color":{"r":0,"g":0,"b":0},"content":"学生姓名","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[185,108,520,133],"color":{"r":0,"g":0,"b":0},"content":"%{student.name}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          
+          {"type":"line","rect":[80,125,520,125],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,165,520,185],"color":{"r":0,"g":0,"b":0},"content":"语文","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,185,520,210],"color":{"r":0,"g":0,"b":0},"content":"（%{chinese_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,130,515,250],"color":{"r":0,"g":0,"b":0},"content":"%{chinese_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,255,520,255],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,295,520,315],"color":{"r":0,"g":0,"b":0},"content":"数学","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,315,520,335],"color":{"r":0,"g":0,"b":0},"content":"（%{math_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,260,515,380],"color":{"r":0,"g":0,"b":0},"content":"%{math_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,385,520,385],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,425,520,445],"color":{"r":0,"g":0,"b":0},"content":"英语","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,445,520,465],"color":{"r":0,"g":0,"b":0},"content":"（%{english_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,390,515,510],"color":{"r":0,"g":0,"b":0},"content":"%{english_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,515,520,515],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,555,520,575],"color":{"r":0,"g":0,"b":0},"content":"体育","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,575,520,595],"color":{"r":0,"g":0,"b":0},"content":"（%{pe_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,520,515,640],"color":{"r":0,"g":0,"b":0},"content":"%{pe_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,645,520,645],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,685,520,705],"color":{"r":0,"g":0,"b":0},"content":"自然","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,705,520,725],"color":{"r":0,"g":0,"b":0},"content":"（%{nature_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,650,515,770],"color":{"r":0,"g":0,"b":0},"content":"%{nature_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,775,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"line","rect":[80,100,80,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+          {"type":"line","rect":[180,100,180,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+          {"type":"line","rect":[520,100,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2}
+      ]
+    },
+    {
+      "elements":[
+          {"type":"line","rect":[80,100,520,100],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,140,520,160],"color":{"r":0,"g":0,"b":0},"content":"美术","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,160,520,180],"color":{"r":0,"g":0,"b":0},"content":"（%{art_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,105,515,225],"color":{"r":0,"g":0,"b":0},"content":"%{art_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,230,520,230],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,270,520,290],"color":{"r":0,"g":0,"b":0},"content":"唱游","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,290,520,210],"color":{"r":0,"g":0,"b":0},"content":"（%{music_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,235,515,355],"color":{"r":0,"g":0,"b":0},"content":"%{music_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,360,520,360],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,400,520,420],"color":{"r":0,"g":0,"b":0},"content":"探究","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,420,520,440],"color":{"r":0,"g":0,"b":0},"content":"（%{explore_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,365,515,480],"color":{"r":0,"g":0,"b":0},"content":"%{explore_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,490,520,490],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,530,520,550],"color":{"r":0,"g":0,"b":0},"content":"道法","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,550,520,570],"color":{"r":0,"g":0,"b":0},"content":"（%{ethics_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,495,515,615],"color":{"r":0,"g":0,"b":0},"content":"%{ethics_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,620,520,620],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"text","rect":[115,660,520,680],"color":{"r":0,"g":0,"b":0},"content":"班主任","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":1},
+          {"type":"text","rect":[90,680,520,700],"color":{"r":0,"g":0,"b":0},"content":"（%{class_teacher.name}老师）","font":{"size":12,"style":"","family":"msyh"},"lineHeight":20,"wordSpace":0},
+          {"type":"text","rect":[185,625,515,770],"color":{"r":0,"g":0,"b":0},"content":"%{class_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+          
+          {"type":"line","rect":[80,775,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+
+          {"type":"line","rect":[80,100,80,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+          {"type":"line","rect":[180,100,180,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
+          {"type":"line","rect":[520,100,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2}
+      ]
+    }
+  ]
+}
