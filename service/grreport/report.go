@@ -3,7 +3,6 @@ package grreport
 import (
 	"shservice/common"
 	"archive/zip"
-	"os"
 	"io"
 	"log"
 )
@@ -14,10 +13,7 @@ func CreateReports(tmpName string,list []interface{},w io.Writer)(int){
 	if err!=nil {
 		return common.ResultReadTempleteFileError
 	}
-	//创建报告临时存放目录
-	outPath:="./reportfile/"+GetBatchID();
-	CreateDir(outPath)
-
+	
 	//如果下载的报告数量大于1，则打包成zip
 	var zipWriter *zip.Writer
 	if len(list)>1 {
@@ -60,10 +56,4 @@ func GetReportFileName(data map[string]interface{})(string){
 	sn:=student["sn"].(string)
 	name:=student["name"].(string)
 	return year+"_"+semester+"_"+sn+"_"+name
-}
-
-func CreateDir(dir string)(error){
-	//创建目录
-	err:=os.MkdirAll(dir,os.ModePerm)
-	return err
 }
