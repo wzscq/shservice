@@ -8,7 +8,7 @@ import (
 
 func TestGRMSTemplete(t *testing.T) {
 	//加载模板
-	tmp,err:=grreport.LoadTempleteFromJsonFile("./templetes/grms.json")
+	tmp,err:=grreport.LoadTempleteFromJsonFile("./templetes/grms_02.json")
 	if err!=nil {
 		log.Println(err)
 		return

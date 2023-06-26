@@ -57,3 +57,10 @@ func GetReportFileName(data map[string]interface{})(string){
 	name:=student["name"].(string)
 	return year+"_"+semester+"_"+sn+"_"+name
 }
+
+func GetReportTemplete(preName string,data map[string]interface{})(string){
+	//学年_学期_学号_姓名
+	semesterModel:=data["semester"].(map[string]interface{})
+	semester:=semesterModel["value"].(string)
+	return preName+"_"+semester
+}

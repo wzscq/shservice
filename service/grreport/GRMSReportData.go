@@ -61,7 +61,8 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"chinese_midterm"},
   {"field":"chinese_final"},
   {"field":"chinese_comprehensive"},
-  
+  {"field":"chinese_annual_synthesis"},
+
   {
     "field":"mathematics_teacher",
     "fieldType":"many2one",
@@ -75,6 +76,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"mathematics_midterm"},
   {"field":"mathematics_final"},
   {"field":"mathematics_comprehensive"},
+  {"field":"mathematics_annual_synthesis"},
 
   {
     "field":"english_teacher",
@@ -89,6 +91,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"english_midterm"},
   {"field":"english_final"},
   {"field":"english_comprehensive"},
+  {"field":"english_annual_synthesis"},
 
   {
     "field":"ethics_teacher",
@@ -102,6 +105,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"ethics_normal"},
   {"field":"ethics_final"},
   {"field":"ethics_comprehensive"},  
+  {"field":"ethics_annual_synthesis"},
 
   {
     "field":"geography_teacher",
@@ -115,6 +119,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"geography_normal"},
   {"field":"geography_final"},
   {"field":"geography_comprehensive"},  
+  {"field":"geography_annual_synthesis"},
 
   {
     "field":"science_teacher",
@@ -128,7 +133,8 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"science_normal"},
   {"field":"science_final"},
   {"field":"science_comprehensive"},  
-  
+  {"field":"science_annual_synthesis"},
+
   {
     "field":"tech_teacher",
     "fieldType":"many2one",
@@ -141,6 +147,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"tech_normal"},
   {"field":"tech_final"},
   {"field":"tech_comprehensive"},
+  {"field":"tech_annual_synthesis"},
 
   {
     "field":"work_teacher",
@@ -154,6 +161,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"work_normal"},
   {"field":"work_final"},
   {"field":"work_comprehensive"},
+  {"field":"work_annual_synthesis"},
 
   {
     "field":"art_teacher",
@@ -167,6 +175,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"art_normal"},
   {"field":"art_final"},
   {"field":"art_comprehensive"},
+  {"field":"art_annual_synthesis"},
 
   {
     "field":"psychology_teacher",
@@ -178,6 +187,7 @@ var gpmsFields=[]map[string]interface{}{
     },
   },
   {"field":"psychology_comprehensive"},
+  {"field":"psychology_annual_synthesis"},
 
   {
     "field":"writing_teacher",
@@ -189,6 +199,7 @@ var gpmsFields=[]map[string]interface{}{
     },
   },
   {"field":"writing_comprehensive"},
+  {"field":"writing_annual_synthesis"},
 
   {
     "field":"pe_teacher",
@@ -204,6 +215,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"pe_team"},
   {"field":"pe_hard"},
   {"field":"pe_comprehensive"},
+  {"field":"pe_annual_synthesis"},
 
   {
     "field":"music_teacher",
@@ -221,6 +233,7 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"music_engagement"},
   {"field":"music_achievement"},
   {"field":"music_comprehensive"},
+  {"field":"music_annual_synthesis"},
 }
 
 func GetGRMSReportData(ids *[]string,crvClinet *crv.CRVClient,token string)([]interface{}){
