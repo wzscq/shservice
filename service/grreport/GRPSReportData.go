@@ -63,6 +63,11 @@ var gprsFields=[]map[string]interface{}{
     {"field":"chinese_synthesis"},
     {"field":"chinese_comprehensive"},
     {"field":"chinese_comments"},
+    {"field":"chinese_final_basics"},
+    {"field":"chinese_final_reading"},
+    {"field":"chinese_final_expression"},
+    {"field":"chinese_final_writing"},
+
     {
       "field":"math_teacher",
 	  "fieldType":"many2one",
@@ -78,6 +83,9 @@ var gprsFields=[]map[string]interface{}{
     {"field":"math_synthesis"},
     {"field":"math_comprehensive"},
     {"field":"math_comments"},
+    {"field":"math_final_calc"},
+    {"field":"math_final_conception"},
+    {"field":"math_final_app"},
 
     {
       "field":"english_teacher",
@@ -94,6 +102,9 @@ var gprsFields=[]map[string]interface{}{
     {"field":"english_writing"},
     {"field":"english_comprehensive"},
     {"field":"english_comments"},
+    {"field":"english_final_voice"},
+    {"field":"english_final_vocabulary"},
+    {"field":"english_final_discourse"},
 
     {
       "field":"ethics_teacher",
@@ -196,6 +207,48 @@ var gprsFields=[]map[string]interface{}{
 	  },
     },
     {"field":"explore_comments"},  
+
+    {
+      "field":"ep_teacher",
+      "fieldType":"many2one",
+	    "relatedModelID":"lms_person",
+      "fields":[]map[string]interface{}{
+          {"field":"id"},
+          {"field":"name"},
+      },
+    },
+    {"field":"ep_engagement"},
+    {"field":"ep_listen"},
+    {"field":"ep_homework"},
+    {"field":"ep_comprehensive"},
+    {"field":"ep_score"},
+    {"field":"ep_comments"},
+
+    {
+      "field":"psychology_teacher",
+      "fieldType":"many2one",
+	    "relatedModelID":"lms_person",
+      "fields":[]map[string]interface{}{
+          {"field":"id"},
+          {"field":"name"},
+      },
+    },
+    {"field":"psychology_comprehensive"},
+    {"field":"psychology_comments"},
+    {"field":"psychology_score"},
+
+    {
+      "field":"it_teacher",
+      "fieldType":"many2one",
+	    "relatedModelID":"lms_person",
+      "fields":[]map[string]interface{}{
+          {"field":"id"},
+          {"field":"name"},
+      },
+    },
+    {"field":"it_comprehensive"},
+    {"field":"it_comments"},
+    {"field":"it_score"},
 }
 
 func GetGRPSReportData(ids *[]string,crvClinet *crv.CRVClient,token string)([]interface{}){

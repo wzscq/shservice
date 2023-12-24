@@ -150,6 +150,48 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"tech_annual_synthesis"},
 
   {
+    "field":"physic_teacher",
+    "fieldType":"many2one",
+    "relatedModelID":"lms_person",
+      "fields":[]map[string]interface{}{
+          {"field":"id"},
+          {"field":"name"},
+    },
+  },
+  {"field":"physic_normal"},
+  {"field":"physic_final"},
+  {"field":"physic_comprehensive"},
+  {"field":"physic_annual_synthesis"},
+
+  {
+    "field":"explore_teacher",
+    "fieldType":"many2one",
+    "relatedModelID":"lms_person",
+      "fields":[]map[string]interface{}{
+          {"field":"id"},
+          {"field":"name"},
+    },
+  },
+  {"field":"explore_normal"},
+  {"field":"explore_final"},
+  {"field":"explore_comprehensive"},
+  {"field":"explore_annual_synthesis"},
+
+  {
+    "field":"history_teacher",
+    "fieldType":"many2one",
+    "relatedModelID":"lms_person",
+      "fields":[]map[string]interface{}{
+          {"field":"id"},
+          {"field":"name"},
+    },
+  },
+  {"field":"history_normal"},
+  {"field":"history_final"},
+  {"field":"history_comprehensive"},
+  {"field":"history_annual_synthesis"},
+
+  {
     "field":"work_teacher",
     "fieldType":"many2one",
     "relatedModelID":"lms_person",

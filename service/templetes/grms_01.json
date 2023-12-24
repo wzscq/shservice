@@ -192,29 +192,72 @@
         {"type":"text","rect":[410,433,520,458],"color":{"r":80,"g":80,"b":80},"content":"%{music_achievement}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
         {"type":"text","rect":[410,458,520,483],"color":{"r":80,"g":80,"b":80},"content":"%{music_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
        
-        {"type":"line","rect":[80,475,520,475],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"心理"},
+        {"type":"line","rect":[80,475,520,475],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
+        {"type":"line","rect":[200,500,520,500],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
+        {"type":"line","rect":[200,525,520,525],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
+
+        {"type":"text","rect":[128,508,200,533],"color":{"r":0,"g":0,"b":0},"content":"物理","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
         
-        {"type":"text","rect":[188,483,320,508],"color":{"r":0,"g":0,"b":0},"content":"心理","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
-        {"type":"text","rect":[410,483,520,508],"color":{"r":80,"g":80,"b":80},"content":"%{psychology_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
-
-        {"type":"line","rect":[80,500,520,500],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"书法"},
-
-        {"type":"text","rect":[188,508,320,533],"color":{"r":0,"g":0,"b":0},"content":"书法","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
-        {"type":"text","rect":[410,508,520,533],"color":{"r":80,"g":80,"b":80},"content":"%{writing_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,483,320,508],"color":{"r":80,"g":80,"b":80},"content":"平时等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,508,320,533],"color":{"r":80,"g":80,"b":80},"content":"期末等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,533,320,558],"color":{"r":0,"g":0,"b":0},"content":"总评等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
         
-        {"type":"line","rect":[80,525,520,525],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
-        {"type":"text","rect":[270,533,520,558],"color":{"r":0,"g":0,"b":0},"content":"班主任评语","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,483,520,508],"color":{"r":80,"g":80,"b":80},"content":"%{physic_normal}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,508,520,533],"color":{"r":80,"g":80,"b":80},"content":"%{physic_final}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,533,520,558],"color":{"r":80,"g":80,"b":80},"content":"%{physic_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"line","rect":[80,550,520,550],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
+        {"type":"line","rect":[200,575,520,575],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
+        {"type":"line","rect":[200,600,520,600],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
 
-        {"type":"line","rect":[80,550,520,550],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
+        {"type":"text","rect":[128,583,200,608],"color":{"r":0,"g":0,"b":0},"content":"探究","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"text","rect":[236,558,320,583],"color":{"r":80,"g":80,"b":80},"content":"平时等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,583,320,608],"color":{"r":80,"g":80,"b":80},"content":"期末等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,608,320,633],"color":{"r":0,"g":0,"b":0},"content":"总评等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"text","rect":[410,558,520,583],"color":{"r":80,"g":80,"b":80},"content":"%{explore_normal}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,583,520,608],"color":{"r":80,"g":80,"b":80},"content":"%{explore_final}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,608,520,633],"color":{"r":80,"g":80,"b":80},"content":"%{explore_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"line","rect":[80,625,520,625],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
+        {"type":"line","rect":[200,650,520,650],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
+        {"type":"line","rect":[200,675,520,675],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
 
-        {"type":"text","rect":[85,555,515,770],"color":{"r":80,"g":80,"b":80},"content":"%{class_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+        {"type":"text","rect":[128,658,200,683],"color":{"r":0,"g":0,"b":0},"content":"历史","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"text","rect":[236,633,320,658],"color":{"r":80,"g":80,"b":80},"content":"平时等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,658,320,683],"color":{"r":80,"g":80,"b":80},"content":"期末等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,683,320,708],"color":{"r":0,"g":0,"b":0},"content":"总评等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"text","rect":[410,633,520,658],"color":{"r":80,"g":80,"b":80},"content":"%{history_normal}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,658,520,683],"color":{"r":80,"g":80,"b":80},"content":"%{history_final}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,683,520,708],"color":{"r":80,"g":80,"b":80},"content":"%{history_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+      
 
-        {"type":"line","rect":[80,775,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"结束"},
+        {"type":"line","rect":[80,700,520,700],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"心理"},
+        
+        {"type":"text","rect":[188,708,320,733],"color":{"r":0,"g":0,"b":0},"content":"心理","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,708,520,733],"color":{"r":80,"g":80,"b":80},"content":"%{psychology_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
 
-        {"type":"line","rect":[80,100,80,775],"color":{"r":0,"g":0,"b":0},"width":0.2},
-        {"type":"line","rect":[200,100,200,475],"color":{"r":0,"g":0,"b":0},"width":0.2},
-        {"type":"line","rect":[320,100,320,525],"color":{"r":0,"g":0,"b":0},"width":0.2},
-        {"type":"line","rect":[520,100,520,775],"color":{"r":0,"g":0,"b":0},"width":0.2}
+        {"type":"line","rect":[80,100,80,733],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[200,100,200,700],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[320,100,320,733],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[520,100,520,733],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,733,520,733],"color":{"r":0,"g":0,"b":0},"width":0.2}
+      ]
+    },
+    {
+      "elements":[
+        {"type":"line","rect":[80,90,520,90],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
+        {"type":"text","rect":[270,94,520,114],"color":{"r":0,"g":0,"b":0},"content":"班主任评语","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"line","rect":[80,110,520,110],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
+
+        {"type":"text","rect":[85,115,515,765],"color":{"r":80,"g":80,"b":80},"content":"%{class_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+
+        {"type":"line","rect":[80,770,520,770],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"结束"},
+        {"type":"line","rect":[80,90,80,770],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[520,90,520,770],"color":{"r":0,"g":0,"b":0},"width":0.2}
       ]
     }
   ]

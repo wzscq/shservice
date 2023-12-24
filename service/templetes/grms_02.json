@@ -232,29 +232,74 @@
         {"type":"text","rect":[410,454,520,470],"color":{"r":80,"g":80,"b":80},"content":"%{psychology_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
         {"type":"text","rect":[410,474,520,490],"color":{"r":80,"g":80,"b":80},"content":"%{psychology_annual_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
 
-        {"type":"line","rect":[80,490,520,490],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"书法"},
-        {"type":"line","rect":[200,510,520,510],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"书法"},
+        {"type":"line","rect":[80,490,520,490],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
+        {"type":"line","rect":[200,510,520,510],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
+        {"type":"line","rect":[200,530,520,530],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
+        {"type":"line","rect":[200,550,520,550],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"物理"},
 
-        {"type":"text","rect":[128,504,200,520],"color":{"r":0,"g":0,"b":0},"content":"书法","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[128,524,200,544],"color":{"r":0,"g":0,"b":0},"content":"物理","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
         
-        {"type":"text","rect":[236,494,320,510],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
-        {"type":"text","rect":[236,514,320,530],"color":{"r":0,"g":0,"b":0},"content":"学年总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,494,320,510],"color":{"r":80,"g":80,"b":80},"content":"平时等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,514,320,530],"color":{"r":80,"g":80,"b":80},"content":"期末等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,534,320,550],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,554,320,570],"color":{"r":0,"g":0,"b":0},"content":"学年总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+
+        {"type":"text","rect":[410,494,520,510],"color":{"r":80,"g":80,"b":80},"content":"%{physic_normal}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,514,520,530],"color":{"r":80,"g":80,"b":80},"content":"%{physic_final}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,534,520,550],"color":{"r":80,"g":80,"b":80},"content":"%{physic_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,554,520,570],"color":{"r":80,"g":80,"b":80},"content":"%{physic_annual_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+
+        {"type":"line","rect":[80,570,520,570],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
+        {"type":"line","rect":[200,590,520,590],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
+        {"type":"line","rect":[200,610,520,610],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
+        {"type":"line","rect":[200,630,520,630],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"探究"},
+
+        {"type":"text","rect":[128,604,200,624],"color":{"r":0,"g":0,"b":0},"content":"探究","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
         
-        {"type":"text","rect":[410,494,520,510],"color":{"r":80,"g":80,"b":80},"content":"%{writing_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
-        {"type":"text","rect":[410,514,520,530],"color":{"r":80,"g":80,"b":80},"content":"%{writing_annual_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,574,320,590],"color":{"r":80,"g":80,"b":80},"content":"平时等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,594,320,610],"color":{"r":80,"g":80,"b":80},"content":"期末等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,614,320,630],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,634,320,660],"color":{"r":0,"g":0,"b":0},"content":"学年总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
 
-        {"type":"line","rect":[80,530,520,530],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
-        {"type":"text","rect":[270,534,520,550],"color":{"r":0,"g":0,"b":0},"content":"班主任评语","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,574,520,590],"color":{"r":80,"g":80,"b":80},"content":"%{explore_normal}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,594,520,610],"color":{"r":80,"g":80,"b":80},"content":"%{explore_final}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,614,520,630],"color":{"r":80,"g":80,"b":80},"content":"%{explore_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,634,520,650],"color":{"r":80,"g":80,"b":80},"content":"%{explore_annual_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
 
-        {"type":"line","rect":[80,550,520,550],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
+        {"type":"line","rect":[80,650,520,650],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
+        {"type":"line","rect":[200,670,520,670],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
+        {"type":"line","rect":[200,690,520,690],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
+        {"type":"line","rect":[200,710,520,710],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"历史"},
 
-        {"type":"text","rect":[85,555,515,765],"color":{"r":80,"g":80,"b":80},"content":"%{class_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
+        {"type":"text","rect":[128,684,200,704],"color":{"r":0,"g":0,"b":0},"content":"历史","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        
+        {"type":"text","rect":[236,654,320,670],"color":{"r":80,"g":80,"b":80},"content":"平时等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,674,320,690],"color":{"r":80,"g":80,"b":80},"content":"期末等第","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,694,320,710],"color":{"r":0,"g":0,"b":0},"content":"学期总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[236,714,320,730],"color":{"r":0,"g":0,"b":0},"content":"学年总评","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+
+        {"type":"text","rect":[410,654,520,670],"color":{"r":80,"g":80,"b":80},"content":"%{history_normal}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,674,520,690],"color":{"r":80,"g":80,"b":80},"content":"%{history_final}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,694,520,710],"color":{"r":80,"g":80,"b":80},"content":"%{history_comprehensive}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"text","rect":[410,714,520,730],"color":{"r":80,"g":80,"b":80},"content":"%{history_annual_synthesis}","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+
+        {"type":"line","rect":[80,90,80,730],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[200,90,200,730],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[320,90,320,730],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[520,90,520,730],"color":{"r":0,"g":0,"b":0},"width":0.2},
+        {"type":"line","rect":[80,730,520,730],"color":{"r":0,"g":0,"b":0},"width":0.2}
+      ]
+    },
+    {
+      "elements":[
+        {"type":"line","rect":[80,90,520,90],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
+        {"type":"text","rect":[270,94,520,114],"color":{"r":0,"g":0,"b":0},"content":"班主任评语","font":{"size":12,"style":"","family":"msyh"},"lineHeight":25,"wordSpace":1},
+        {"type":"line","rect":[80,110,520,110],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"班主任评语"},
+
+        {"type":"text","rect":[85,115,515,765],"color":{"r":80,"g":80,"b":80},"content":"%{class_comments}","font":{"size":10,"style":"","family":"msyh"},"lineHeight":11,"wordSpace":0.1},
 
         {"type":"line","rect":[80,770,520,770],"color":{"r":0,"g":0,"b":0},"width":0.2,"label":"结束"},
-
         {"type":"line","rect":[80,90,80,770],"color":{"r":0,"g":0,"b":0},"width":0.2},
-        {"type":"line","rect":[200,90,200,530],"color":{"r":0,"g":0,"b":0},"width":0.2},
-        {"type":"line","rect":[320,90,320,530],"color":{"r":0,"g":0,"b":0},"width":0.2},
         {"type":"line","rect":[520,90,520,770],"color":{"r":0,"g":0,"b":0},"width":0.2}
       ]
     }
