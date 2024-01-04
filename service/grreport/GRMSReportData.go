@@ -15,6 +15,7 @@ var gpmsFields=[]map[string]interface{}{
     "fields": []map[string]interface{}{
       {"field": "id"},
       {"field": "current_grade"},
+      {"field": "enrollment_year"},
       {"field": "class_number"},
     },
   },

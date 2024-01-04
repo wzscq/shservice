@@ -15,7 +15,7 @@ if [ ! -e package/service ]; then
   mkdir package/service
 fi
 
-if [ -e package/service/smartlockservice ]; then
+if [ -e package/service/shservice ]; then
   rm -rf package/service/shservice
 fi
 

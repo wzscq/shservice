@@ -31,7 +31,7 @@ func (controller *GRReportController)downloadPRPSReport(c *gin.Context){
 		rsp:=common.CreateResponse(common.CreateError(common.ResultWrongRequest,nil),nil)
 		c.IndentedJSON(http.StatusOK, rsp)
 		return
-  	}	
+  }
 
 	if rep.SelectedRowKeys==nil || len(*rep.SelectedRowKeys)==0 {
 		rsp:=common.CreateResponse(common.CreateError(common.ResultWrongRequest,nil),nil)
@@ -47,7 +47,7 @@ func (controller *GRReportController)downloadPRPSReport(c *gin.Context){
 	if res!=nil && len(res)>0 {
 		var fileName string
 		if len(res)==1 {
-			fileName=GetReportFileName(res[0].(map[string]interface{}))+".pdf"
+			fileName=GetReportFileName(res[0].(map[string]interface{}))+".xlsx"
 		} else {
 			fileName=GetBatchID()+".zip"
 		}
@@ -55,11 +55,11 @@ func (controller *GRReportController)downloadPRPSReport(c *gin.Context){
 		fileName=url.QueryEscape(fileName)
 		
 		c.Header("Content-Type", "application/octet-stream")
-    	c.Header("Content-Disposition", "attachment; filename="+fileName)
-    	c.Header("Content-Transfer-Encoding", "binary")
+    c.Header("Content-Disposition", "attachment; filename="+fileName)
+    c.Header("Content-Transfer-Encoding", "binary")
 	
 		//生成报表
-		CreateReports("grps",res,c.Writer)
+		CreateExcelReports("grps",res,c.Writer)
 	}
 	
 	log.Println("GRReportController end downloadPRPSReport")
