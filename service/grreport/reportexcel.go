@@ -10,7 +10,7 @@ import (
 	"github.com/wzscq/exceltemplate"
 )
 
-func CreateExcelReports(tmpName string,list []interface{},w io.Writer)(int){
+func CreateExcelReports(templatePath,tmpType string,list []interface{},w io.Writer)(int){
 	//如果下载的报告数量大于1，则打包成zip
 	var zipWriter *zip.Writer
 	if len(list)>1 {
@@ -20,8 +20,8 @@ func CreateExcelReports(tmpName string,list []interface{},w io.Writer)(int){
 
 	for _,data:=range list {
 		mapData:=data.(map[string]interface{})
-		getTemplateFileName:=getTemplateFileName(tmpName,mapData)
-		excel,err:=exceltemplate.GetExcelFromTemplate(getTemplateFileName,mapData)
+		getTemplateFileName:=getTemplateFileName(tmpType,mapData)
+		excel,err:=exceltemplate.GetExcelFromTemplate(templatePath+"/"+getTemplateFileName,mapData)
 		if err==nil {
 			if zipWriter!=nil {
 				outFileName:=GetReportFileName(mapData)+".xlsx"
@@ -43,7 +43,7 @@ func CreateExcelReports(tmpName string,list []interface{},w io.Writer)(int){
 	return common.ResultSuccess
 }
 
-func getTemplateFileName(tmpName string,data map[string]interface{})(string){
+func getTemplateFileName(tmpType string,data map[string]interface{})(string){
 	//模板命名规则：x年级_x学期.xlsx
 	semesterModel:=data["semester"].(map[string]interface{})
 	semester:=semesterModel["value"].(string)
@@ -56,7 +56,7 @@ func getTemplateFileName(tmpName string,data map[string]interface{})(string){
 	yearInt,_:=strconv.Atoi(year)
 	enrollment_yearInt,_:=strconv.Atoi(enrollment_year)
 	grade:=yearInt-enrollment_yearInt+1
-	return fmt.Sprintf("./templetes/tmpName_%d年级_%s学期.xlsx",grade,semester)
+	return fmt.Sprintf("%s_%d年级_%s学期.xlsx",tmpType,grade,semester)
 }
 
 

@@ -59,7 +59,7 @@ func (controller *GRReportController)downloadPRPSReport(c *gin.Context){
     c.Header("Content-Transfer-Encoding", "binary")
 	
 		//生成报表
-		CreateExcelReports("grps",res,c.Writer)
+		CreateExcelReports("./templetes","grps",res,c.Writer)
 	}
 	
 	log.Println("GRReportController end downloadPRPSReport")
