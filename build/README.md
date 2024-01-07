@@ -3,7 +3,7 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
 
 2023-06-22 第一次创建
 
-2023-10-22 更新  未更新
+2023-10-22 更新  已更新
 1、在班级人员查询中，对于学生的查询补充学号字段，并可以按学号字段查询和排序。
    1）、创建数据库视图，view_class_participant,关联学生的学号字段。
    2）、补充view_class_participant相关的模型配置信息。
@@ -19,7 +19,7 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
    1）、 增加流程配置逻辑，upgrade_class_semester
    2）、lms_class模型中增加升学期按钮配置
 
-2023-11-04
+2023-11-04  已更新
 1、学生信息补充以下字段：户口省份、民族、联系电话、联系人1、联系人1单位、联系人1关系、联系人1电话、联系人2、联系人2单位、联系人2关系、联系人2电话
    1）、数据库表lms_person增加以下字段
        alter table lms_person
@@ -75,7 +75,7 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
    1）、配置导出处理流程
    2）、各科页面配置导出按钮
 
-2023-12-23 成长报告更新
+2023-12-23 成长报告更新  已更新
 1、小学语文成长报告增加期末考查项目
    a、修改导入模板，增加对应成绩的导入列
    b、修改数据库表增加对应数据列
@@ -310,4 +310,220 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
    b、吸怪模型 view_gr_ps 配置，增加相应科目字段
    c、修改导出逻辑，增加对应字段的处理
    
+20240101 成长报告v5、v6
+1、小学语文期末总评细分为：基础、阅读、表达、写字
+   a、修改导入模板，增加对应细分列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ps_chinese
+      add column chinese_comprehensive_reading varchar(2) NULL ,
+      add column chinese_comprehensive_expression varchar(2) NULL ,
+      add column chinese_comprehensive_writing varchar(2) NULL;
+   c、模型配置修改lms_gr_ps_chinese
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_chinese.json
+      export_gr_ps_chinese.json
+2、小学数学期末总评细分为：计算、应用、概念
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ps_mathematics
+      add column math_comprehensive_conception varchar(2) NULL ,
+      add column math_comprehensive_app varchar(2) NULL;
+   c、模型配置修改lms_gr_ps_mathematics
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_mathematics.json
+      export_gr_ps_mathematics.json
+3、小学英语学期总评细分为：听、读、写
+   a、修改导入模板，增加对应导入列   
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ps_english
+      add column english_comprehensive_reading varchar(2) NULL ,
+      add column english_comprehensive_writing varchar(2) NULL ;
+   c、模型配置修改lms_gr_ps_english
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_english.json
+      export_gr_ps_english.json
+4、小学道法学期总评细分为：基本常识、活动作业、行为表现
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ps_ethics
+      add column ethics_comprehensive_homework varchar(2) NULL ,
+      add column ethics_comprehensive_behavior varchar(2) NULL ;
+   c、模型配置修改 lms_gr_ps_ethics
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_ethics.json
+      export_gr_ps_ethics.json
+
+5、初中语文，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_chinese
+      add column normal_score decimal(18,2) NULL ,
+      add column midterm_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL;
+   c、模型配置修改 lms_gr_ms_chinese
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_chinese.json
+      export_gr_ms_chinese.json
+6、初中数学，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_mathematics
+      add column normal_score decimal(18,2) NULL ,
+      add column midterm_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL;      
+   c、模型配置修改 lms_gr_ms_mathematics
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_mathematics.json
+      export_gr_ms_mathematics.json
+7、初中英语，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_english
+      add column normal_score decimal(18,2) NULL ,
+      add column midterm_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_english
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_english.json
+      export_gr_ms_english.json
+8、初中道法，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_ethics
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL;
+   c、模型配置修改 lms_gr_ms_ethics
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_ethics.json
+      export_gr_ms_ethics.json
+
+9、初中地理，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_geography
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_geography
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_geography.json
+      export_gr_ms_geography.json
+
+10、初中科学，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_science
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_science
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_science.json
+      export_gr_ms_science.json
+
+11、初中劳技，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_work
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_work
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_work.json
+      export_gr_ms_work.json
+
+12、初中物理，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_physic
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_physic
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_physic.json
+      export_gr_ms_physic.json
+   
+
+13、初中探究，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_explore
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_explore
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_explore.json
+      export_gr_ms_explore.json
+
+14、初中历史，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_history
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_history
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_history.json
+      export_gr_ms_history.json
+
+15、初中信息科技，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_tech
+      add column normal_score decimal(18,2) NULL ,
+      add column final_score decimal(18,2) NULL ,
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_tech
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_tech.json
+      export_gr_ms_tech.json
+
+16、初中心理，各个项目增加对应成绩
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ms_psychology
+      add column comprehensive_score decimal(18,2) NULL ;
+   c、模型配置修改 lms_gr_ms_psychology
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ms_psychology.json
+      export_gr_ms_psychology.json
+
+17、小学信息，导入字段变化
+   a、修改导入模板，增加对应导入列
+   b、修改数据库表增加对应数据列
+      alter table lms_gr_ps_it
+      add column it_normal_engagement varchar(2) NULL ,
+      add column it_normal_oper varchar(2) NULL ,
+      add column it_normal_creative varchar(2) NULL ,
+      add column it_final_base varchar(2) NULL ,
+      add column it_final_oper varchar(2) NULL ;
+   c、模型配置修改 lms_gr_ps_it
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_it.json
+      export_gr_ps_it.json   
+
+18、小学综评视图修改
+   a、修改数据库视图定义：view_gr_ps
+   b、修改视图对应的模型配置
+
+19、初中综评视图修改
+   a、修改数据库视图定义：view_gr_ms
+   b、修改视图对应的模型配置
+
+20、小学导出逻辑和模板更新
+   a、修改后台服务导出处理逻辑
+   b、创建报告模板文件，目前仅制作了1、2、3年级的
+
+21、初中导出逻辑和模板更新
+   a、修改后台服务导出处理逻辑，增加成绩对应查询字段
+   b、创建报告模板文件
+
 

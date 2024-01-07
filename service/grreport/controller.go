@@ -53,13 +53,19 @@ func (controller *GRReportController)downloadPRPSReport(c *gin.Context){
 		}
 
 		fileName=url.QueryEscape(fileName)
-		
 		c.Header("Content-Type", "application/octet-stream")
-    c.Header("Content-Disposition", "attachment; filename="+fileName)
-    c.Header("Content-Transfer-Encoding", "binary")
-	
+    	c.Header("Content-Disposition", "attachment; filename="+fileName)
+    	c.Header("Content-Transfer-Encoding", "binary")
 		//生成报表
-		CreateExcelReports("./templetes","grps",res,c.Writer)
+		errorCode:=CreateExcelReports("./templetes","grps",res,c.Writer)
+		if errorCode!=common.ResultSuccess {
+			//去掉Header中的Content-Disposition
+			c.Header("Content-Disposition", "")
+			c.Header("Content-Type", "application/json")
+			rsp:=common.CreateResponse(common.CreateError(errorCode,nil),nil)
+			c.IndentedJSON(http.StatusOK, rsp)
+			return
+		}
 	}
 	
 	log.Println("GRReportController end downloadPRPSReport")
@@ -99,20 +105,25 @@ func (controller *GRReportController)downloadPRMSReport(c *gin.Context){
 	if res!=nil && len(res)>0 {
 		var fileName string
 		if len(res)==1 {
-			fileName=GetReportFileName(res[0].(map[string]interface{}))+".pdf"
+			fileName=GetReportFileName(res[0].(map[string]interface{}))+".xlsx"
 		} else {
 			fileName=GetBatchID()+".zip"
 		}
 
 		fileName=url.QueryEscape(fileName)
-		
 		c.Header("Content-Type", "application/octet-stream")
-    c.Header("Content-Disposition", "attachment; filename="+fileName)
-    c.Header("Content-Transfer-Encoding", "binary")
-	
+    	c.Header("Content-Disposition", "attachment; filename="+fileName)
+    	c.Header("Content-Transfer-Encoding", "binary")
 		//生成报表
-		tmpName:=GetReportTemplete("grms",res[0].(map[string]interface{}))
-		CreateReports(tmpName,res,c.Writer)
+		errorCode:=CreateExcelReports("./templetes","grms",res,c.Writer)
+		if errorCode!=common.ResultSuccess {
+			//去掉Header中的Content-Disposition
+			c.Header("Content-Disposition", "")
+			c.Header("Content-Type", "application/json")
+			rsp:=common.CreateResponse(common.CreateError(errorCode,nil),nil)
+			c.IndentedJSON(http.StatusOK, rsp)
+			return
+		}
 	}
 	
 	log.Println("GRReportController end downloadPRMSReport")

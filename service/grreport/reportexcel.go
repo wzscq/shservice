@@ -21,23 +21,26 @@ func CreateExcelReports(templatePath,tmpType string,list []interface{},w io.Writ
 	for _,data:=range list {
 		mapData:=data.(map[string]interface{})
 		getTemplateFileName:=getTemplateFileName(tmpType,mapData)
+		//检查模板文件是否存在
 		excel,err:=exceltemplate.GetExcelFromTemplate(templatePath+"/"+getTemplateFileName,mapData)
-		if err==nil {
-			if zipWriter!=nil {
-				outFileName:=GetReportFileName(mapData)+".xlsx"
-				fileHeader:=&zip.FileHeader{
-					Name:outFileName,
-				}
-				fileWriter,err:=zipWriter.CreateHeader(fileHeader)
-				if err!=nil {
-					log.Println(err)
-				} 
-				excel.Write(fileWriter)
-			} else {
-				excel.Write(w)
-			}
-			excel.Close()
+		if err!=nil {
+			return common.ResultReadTempleteFileError
 		}
+
+		if zipWriter!=nil {
+			outFileName:=GetReportFileName(mapData)+".xlsx"
+			fileHeader:=&zip.FileHeader{
+				Name:outFileName,
+			}
+			fileWriter,err:=zipWriter.CreateHeader(fileHeader)
+			if err!=nil {
+				log.Println(err)
+			} 
+			excel.Write(fileWriter)
+		} else {
+			excel.Write(w)
+		}
+		excel.Close()		
 	}
 
 	return common.ResultSuccess

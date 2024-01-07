@@ -68,6 +68,9 @@ var gprsFields=[]map[string]interface{}{
     {"field":"chinese_final_reading"},
     {"field":"chinese_final_expression"},
     {"field":"chinese_final_writing"},
+    {"field":"chinese_comprehensive_reading"},
+    {"field":"chinese_comprehensive_expression"},
+    {"field":"chinese_comprehensive_writing"},
 
     {
       "field":"math_teacher",
@@ -87,6 +90,8 @@ var gprsFields=[]map[string]interface{}{
     {"field":"math_final_calc"},
     {"field":"math_final_conception"},
     {"field":"math_final_app"},
+    {"field":"math_comprehensive_conception"},
+    {"field":"math_comprehensive_app"},
 
     {
       "field":"english_teacher",
@@ -106,6 +111,8 @@ var gprsFields=[]map[string]interface{}{
     {"field":"english_final_voice"},
     {"field":"english_final_vocabulary"},
     {"field":"english_final_discourse"},
+    {"field":"english_comprehensive_reading"},
+    {"field":"english_comprehensive_writing"},
 
     {
       "field":"ethics_teacher",
@@ -125,6 +132,8 @@ var gprsFields=[]map[string]interface{}{
     {"field":"ethics_behavior"},
     {"field":"ethics_comprehensive"},
     {"field":"ethics_comments"},
+    {"field":"ethics_comprehensive_homework"},
+    {"field":"ethics_comprehensive_behavior"},
 
     {
       "field":"nature_teacher",
@@ -250,6 +259,11 @@ var gprsFields=[]map[string]interface{}{
     {"field":"it_comprehensive"},
     {"field":"it_comments"},
     {"field":"it_score"},
+    {"field":"it_normal_engagement"},
+    {"field":"it_normal_oper"},
+    {"field":"it_normal_creative"},
+    {"field":"it_final_base"},
+    {"field":"it_final_oper"},
 }
 
 func GetGRPSReportData(ids *[]string,crvClinet *crv.CRVClient,token string)([]interface{}){

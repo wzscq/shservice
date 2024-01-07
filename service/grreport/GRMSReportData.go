@@ -63,6 +63,11 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"chinese_final"},
   {"field":"chinese_comprehensive"},
   {"field":"chinese_annual_synthesis"},
+  {"field":"chinese_normal_score"},
+  {"field":"chinese_midterm_score"},
+  {"field":"chinese_final_score"},
+  {"field":"chinese_comprehensive_score"},
+  {"field":"chinese_score"},
 
   {
     "field":"mathematics_teacher",
@@ -78,7 +83,12 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"mathematics_final"},
   {"field":"mathematics_comprehensive"},
   {"field":"mathematics_annual_synthesis"},
-
+  {"field":"mathematics_normal_score"},
+  {"field":"mathematics_midterm_score"},
+  {"field":"mathematics_final_score"},
+  {"field":"mathematics_comprehensive_score"},
+  {"field":"mathematics_score"},
+  
   {
     "field":"english_teacher",
 	  "fieldType":"many2one",
@@ -93,6 +103,11 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"english_final"},
   {"field":"english_comprehensive"},
   {"field":"english_annual_synthesis"},
+  {"field":"english_normal_score"},
+  {"field":"english_midterm_score"},
+  {"field":"english_final_score"},
+  {"field":"english_comprehensive_score"},
+  {"field":"english_score"},
 
   {
     "field":"ethics_teacher",
@@ -107,7 +122,11 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"ethics_final"},
   {"field":"ethics_comprehensive"},  
   {"field":"ethics_annual_synthesis"},
-
+  {"field":"ethics_normal_score"},
+  {"field":"ethics_final_score"},
+  {"field":"ethics_comprehensive_score"},
+  {"field":"ethics_score"},  
+  
   {
     "field":"geography_teacher",
     "fieldType":"many2one",
@@ -121,6 +140,10 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"geography_final"},
   {"field":"geography_comprehensive"},  
   {"field":"geography_annual_synthesis"},
+  {"field":"geography_normal_score"},
+  {"field":"geography_final_score"},
+  {"field":"geography_comprehensive_score"},
+  {"field":"geography_score"},
 
   {
     "field":"science_teacher",
@@ -135,7 +158,11 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"science_final"},
   {"field":"science_comprehensive"},  
   {"field":"science_annual_synthesis"},
-
+  {"field":"science_normal_score"},
+  {"field":"science_final_score"},
+  {"field":"science_comprehensive_score"},
+  {"field":"science_score"},
+  
   {
     "field":"tech_teacher",
     "fieldType":"many2one",
@@ -149,6 +176,10 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"tech_final"},
   {"field":"tech_comprehensive"},
   {"field":"tech_annual_synthesis"},
+  {"field":"tech_normal_score"},
+  {"field":"tech_final_score"},
+  {"field":"tech_comprehensive_score"},
+  {"field":"tech_score"},
 
   {
     "field":"physic_teacher",
@@ -163,6 +194,10 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"physic_final"},
   {"field":"physic_comprehensive"},
   {"field":"physic_annual_synthesis"},
+  {"field":"physic_normal_score"},
+  {"field":"physic_final_score"},
+  {"field":"physic_comprehensive_score"},
+  {"field":"physic_score"},
 
   {
     "field":"explore_teacher",
@@ -177,6 +212,10 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"explore_final"},
   {"field":"explore_comprehensive"},
   {"field":"explore_annual_synthesis"},
+  {"field":"explore_normal_score"},
+  {"field":"explore_final_score"},
+  {"field":"explore_comprehensive_score"},
+  {"field":"explore_score"},
 
   {
     "field":"history_teacher",
@@ -191,6 +230,10 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"history_final"},
   {"field":"history_comprehensive"},
   {"field":"history_annual_synthesis"},
+  {"field":"history_normal_score"},
+  {"field":"history_final_score"},
+  {"field":"history_comprehensive_score"},
+  {"field":"history_score"},
 
   {
     "field":"work_teacher",
@@ -205,6 +248,10 @@ var gpmsFields=[]map[string]interface{}{
   {"field":"work_final"},
   {"field":"work_comprehensive"},
   {"field":"work_annual_synthesis"},
+  {"field":"work_normal_score"},
+  {"field":"work_final_score"},
+  {"field":"work_comprehensive_score"},
+  {"field":"work_score"},
 
   {
     "field":"art_teacher",
@@ -231,6 +278,8 @@ var gpmsFields=[]map[string]interface{}{
   },
   {"field":"psychology_comprehensive"},
   {"field":"psychology_annual_synthesis"},
+  {"field":"psychology_comprehensive_score"},
+  {"field":"psychology_score"},
 
   {
     "field":"writing_teacher",
