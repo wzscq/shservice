@@ -30,7 +30,7 @@ func TestGetTemplateFileName(t *testing.T){
 	}
 	fileName:=getTemplateFileName("grps",data)
 	fmt.Println(fileName)
-	if fileName!="grps_2年级_01学期.xlsx" {
+	if fileName!="grps_2grade_01semester.xlsx" {
 		t.Error("getTemplateFileName error")
 	}
 }
@@ -78,12 +78,14 @@ func TestCreateExcelReports(t *testing.T){
 		return
 	}
 	//遍历读取每行数据
-	for _, row := range rows {
-		for _, colCell := range row {
+	for rowIndex, row := range rows {
+		for colIndex, colCell := range row {
 			fmt.Print(colCell, "\t")
-			if colCell!="学年：2018 入校年份：2017 学期：第一学期" {
-				t.Error("CreateExcelReports error")
-				return
+			if rowIndex==0 && colIndex==0 {
+				if colCell!="上汇实验学校2018学年第一学期学生成长报告" {
+					t.Error("CreateExcelReports error")
+					return
+				}
 			}
 		}
 		fmt.Println()

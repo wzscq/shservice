@@ -59,7 +59,7 @@ func getTemplateFileName(tmpType string,data map[string]interface{})(string){
 	yearInt,_:=strconv.Atoi(year)
 	enrollment_yearInt,_:=strconv.Atoi(enrollment_year)
 	grade:=yearInt-enrollment_yearInt+1
-	return fmt.Sprintf("%s_%d年级_%s学期.xlsx",tmpType,grade,semester)
+	return fmt.Sprintf("%s_%dgrade_%ssemester.xlsx",tmpType,grade,semester)
 }
 
 
