@@ -526,8 +526,37 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
    a、修改后台服务导出处理逻辑，增加成绩对应查询字段
    b、创建报告模板文件
 
-20240108 
+20240108 已更新
 1、公告发布的权限给人事角色
    a、修改模型配置 lms_announcement
 2、修改用户编辑页面宽度
    a、修改模型配置 core_user
+
+20240110 小学3、4、5年级综评报告修改
+1、小学语文增加学期总评和期末总评
+   a、修改导入模板，增加相应的字段
+   b、数据库表增加对应的字段
+      alter table lms_gr_ps_chinese
+      add column chinese_final_comprehensive varchar(2) NULL ,
+      add column chinese_comprehensive_base varchar(2) NULL;
+   c、修改模型配置 lms_gr_ps_chinese
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_chinese.json
+      export_gr_ps_chinese.json
+
+2、小学数学增加学期总评和期末总评
+   a、修改导入模板，增加相应的字段
+   b、数据库表增加对应的字段
+      alter table lms_gr_ps_mathematics
+      add column math_final_comprehensive varchar(2) NULL ,
+      add column math_comprehensive_calc varchar(2) NULL ;
+   c、修改模型配置 lms_gr_ps_mathematics
+   d、导入导出流程修改，增加对应字段处理
+      import_gr_ps_mathematics.json
+      export_gr_ps_mathematics.json
+
+3、修改小学总评导出逻辑
+   a、视图修改   view_gr_ps
+   b、修改对应视图配置 view_gr_ps
+   c、修改后台服务逻辑，添加导出字段
+   d、修改导出模板

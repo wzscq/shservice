@@ -71,7 +71,9 @@ var gprsFields=[]map[string]interface{}{
     {"field":"chinese_comprehensive_reading"},
     {"field":"chinese_comprehensive_expression"},
     {"field":"chinese_comprehensive_writing"},
-
+    {"field":"chinese_comprehensive_base"},
+    {"field":"chinese_final_comprehensive"},
+    
     {
       "field":"math_teacher",
 	  "fieldType":"many2one",
@@ -92,7 +94,9 @@ var gprsFields=[]map[string]interface{}{
     {"field":"math_final_app"},
     {"field":"math_comprehensive_conception"},
     {"field":"math_comprehensive_app"},
-
+    {"field":"math_comprehensive_calc"},
+    {"field":"math_final_comprehensive"},
+    
     {
       "field":"english_teacher",
 	  "fieldType":"many2one",
