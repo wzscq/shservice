@@ -310,7 +310,7 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
    b、吸怪模型 view_gr_ps 配置，增加相应科目字段
    c、修改导出逻辑，增加对应字段的处理
    
-20240101 成长报告v5、v6
+20240101 成长报告v5、v6 已更新
 1、小学语文期末总评细分为：基础、阅读、表达、写字
    a、修改导入模板，增加对应细分列
    b、修改数据库表增加对应数据列
@@ -526,4 +526,8 @@ docker run --name shservice -p9800:80 -v /root/shservice/font:/services/shservic
    a、修改后台服务导出处理逻辑，增加成绩对应查询字段
    b、创建报告模板文件
 
-
+20240108 
+1、公告发布的权限给人事角色
+   a、修改模型配置 lms_announcement
+2、修改用户编辑页面宽度
+   a、修改模型配置 core_user
